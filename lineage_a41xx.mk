@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 
+
 # Inherit device configuration
 $(call inherit-product, device/samsung/a41xx/device.mk)
 
@@ -44,7 +45,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
-# TODO : update fingerprint
 # Vendor fingerprint
-BUILD_FINGERPRINT := "samsung/a52sxqxx/a52sxq:11/RP1A.200720.012/A528BXXU2EWC1:user/release-keys"
-PRIVATE_BUILD_DESC := "a52sxqxx-user 11 RP1A.200720.012 A528BXXU2EWC1 release-keys"
+BUILD_FINGERPRINT := "samsung/a41xx/a41:12/SP1A.210812.016/A415FXXU3DWD2:user/release-keys"
+PRIVATE_BUILD_DESC := "a41xx-user 12 SP1A.210812.016 A415FXXU3DWD2 release-keys"
